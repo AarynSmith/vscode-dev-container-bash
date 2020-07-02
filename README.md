@@ -2,7 +2,7 @@
 
 ## Summary
 
-*Develop scripts with Bash, includes [Bash IDE](https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode).*
+*Develop scripts with Bash, includes [Bash IDE](https://marketplace.visualstudio.com/items?itemName=mads-hartmann.bash-ide-vscode), and [Bash Debug](https://github.com/rogalmic/vscode-bash-debug).*
 
 |          Metadata           |                    Value                     |
 | --------------------------- | -------------------------------------------- |
