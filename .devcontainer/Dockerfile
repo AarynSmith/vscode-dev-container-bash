@@ -15,7 +15,7 @@ RUN apk add --no-cache\
     sudo \
     && rm -rf /var/lib/apt/lists/*
 RUN addgroup -g ${USER_GID} ${USERNAME} && \
-    adduser -s /bin/ash -u ${USER_UID} -D -G ${USERNAME} ${USERNAME} && \
+    adduser -s /bin/bash -u ${USER_UID} -D -G ${USERNAME} ${USERNAME} && \
     echo ${USERNAME} ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/${USERNAME}&& \
     chmod 0440 /etc/sudoers.d/${USERNAME}
 WORKDIR /src
